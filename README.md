@@ -11,4 +11,5 @@ A simple and responsive calculator user interface designed using HTML and CSS
 <br>
 - basic calculator layout
 <br>
-Author :: Noman Mirza
+<br>
+Author :: **Noman Mirza**
