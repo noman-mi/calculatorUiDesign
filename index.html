@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+</head>
+
+<body class=" bg-gray-300">
+
+    <main class="h-[100vh] flex flex-col justify-end md:flex-row ">
+
+        <div class="flex flex-col md:flex md:w-[70%] justify-end">
+
+            <div
+                class="text-black w-full p-5 shadow-[0_2px_10px_rgb(0,0,0,0.2)] font-bold text-3xl text-end border mb-2 md:w-[98%]">
+                120</div>
+
+
+            <div class="flex flex-wrap gap-1 justify-center pl-1 pr-1">
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    %</div>
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    CE</div>
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    C</div>
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    X</div>
+            </div>
+            <div class="flex flex-wrap gap-1 justify-center pl-1 pr-1 pt-1">
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    7</div>
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    8</div>
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    9</div>
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    *</div>
+            </div>
+            <div class="flex flex-wrap gap-1 justify-center  pl-1 pr-1 pt-1">
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    4</div>
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    5</div>
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    6</div>
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    -</div>
+            </div>
+            <div class="flex flex-wrap gap-1 justify-center  pl-1 pr-1 pt-1">
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    1</div>
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    2</div>
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    3</div>
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    +</div>
+            </div>
+            <div class="flex flex-wrap gap-1 justify-center  pl-1 pr-1 pt-1 pb-2">
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    +/-</div>
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    0</div>
+                <div
+                    class="text-black bg-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem]">
+                    .</div>
+                <div
+                    class="text-white p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-[24%] rounded-[0.6rem] text-[1rem] bg-blue-700">
+                    =</div>
+            </div>
+        </div>
+
+        <div class="hidden md:flex w-[30%]">
+            <div
+                class="text-black font-bold p-5 text-center shadow-[0_2px_10px_rgb(0,0,0,0.2)] w-full rounded-[0.6rem] text-[1.5rem] hidden md:flex ">
+                History</div>
+        </div>
+
+
+
+
+
+
+    </main>
+
+</body>
+
+</html
